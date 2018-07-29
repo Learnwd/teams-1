@@ -1,0 +1,78 @@
+/*start of features 7*/
+.team-1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #ffffff;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+    padding: 100px 0;
+    color: #141414;
+}
+
+.team-1 h2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.625rem;
+}
+
+.team-1 h3 {
+    font-size: 1.375rem;
+    line-height: 1.4;
+    opacity: 0.7;
+}
+
+.team-1 .center-border {
+    border-right: 1px solid rgba(0, 0, 0, .125);
+    border-left: 1px solid rgba(0, 0, 0, .125);
+}
+
+.team-1 .card-footer {
+    background: #ffffff;
+}
+
+.team-1 h4 {
+    font-size: 1.375rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.team-1 h5 {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #212f3f;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.team-1 .fa {
+    color: #bcc6c9;
+    font-size: 1.375rem !important;
+}
+
+.team-1 .btn-primary {
+    padding: 10px 42px;
+    border-radius: 25px;
+    background: #ff0000;
+    border: 1px solid #ff0000;
+}
+
+.team-1 .btn-primary:hover {
+    background: #007bff;
+    border: 1px solid #007bff;
+}
+
+@media (min-width: 992px) {
+    .team-1 {
+        height: 100vh;
+        min-height: 850px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .team-1 h3 {
+        width: 70%;
+    }
+}
+/*end of features 7*/
